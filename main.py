@@ -226,4 +226,6 @@ class FirstApp(MDApp):
 
 
 if __name__ == "__main__":
+    #from kivy.core.window import Window - When you convert it into mobile application using buildozer, 
+    #Window.fullscreen = True  uncomment this two lines and comment line number 11 and 12.
     FirstApp().run()
